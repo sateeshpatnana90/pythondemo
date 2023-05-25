@@ -17,5 +17,4 @@ def test_verify_api(api):
     common_methods.verify_response_msg(str(api["response"]),str(response.json()["result"]))
     common_methods.create_report_log(api["title"],"testcese","passed")
 
-def test_api_validation():
-    print("all works done")
+
