@@ -1,0 +1,4 @@
+id,execution_flag,Type,title,endpoint,method,params,payload,headers,auth,token_type,bearer,username,password,response_code,response,res_time
+1,Y,P,Insert user with all params,http://www.fratelloinnotech.com/insertuser.php,post,,"{'name': 'bharathi',
+'address': 'kakinada'}",,N,,,,,200,success ok,4
+2,N,N,Insert user without params,http://www.fratelloinnotech.com/insertuser.php,post,,,,N,,,,,400,"{""result"":""send all params""}",1
